@@ -1,0 +1,10 @@
+body{
+    background-image:url("fondo.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+table{
+    background-color: rgba(0,0,0,40%);
+}

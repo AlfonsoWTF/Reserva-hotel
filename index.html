@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <title>Reserva Hotel</title>
+</head>
+
+<body>
+    <h1 style="text-align: center;">RESERVAS CARIBE RESORT</h1>
+    <table style="text-align: left; margin-left: auto; margin-right: auto;">
+        <thead>
+            <tr>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <h3>DATOS DEL CLIENTE</h3>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h4>Nombre:</h4>
+                </td>
+                <td><input type="text" name="nombre"></td>
+                <td>
+                    <h4>Apellidos:</h4>
+                </td>
+                <td><input type="text" name="apellido"></td>
+            </tr>
+            <tr>
+                <td>
+                    <h4>Cedula:</h4>
+                </td>
+                <td><input type="text" name="apellido"></td>
+            </tr>
+            <tr>
+                <td>
+                    <h3> DATOS DE RESERVA</h3>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h4>CIUDAD DE DESTINO: </h4>
+                </td>
+                <td>
+                    <select name="ciudad" id="ciudad">
+                        <option value="Barranquilla">Barranquilla</option>
+                        <option value="Cartagena">Cartagena</option>
+                        <option value="Santa Marta">Santa Marta</option>
+                    </select>
+
+                </td>
+
+                <td>
+                    <h4>Fecha de llegada:</h4>
+                </td>
+                <td><input type="date" name="fechaLlegada"></td>
+                <td>
+                    <h4>Fecha de salida:</h4>
+                </td>
+                <td><input type="date" name="fechaSalida"></td>
+            </tr>
+            <tr>
+                <td>
+                    <h4>Cantidad de personas:</h4>
+                </td>
+                <td> <input type="number" name="cantidad" min="1" max="4"></td>
+            </tr>
+            <tr>
+                <th>
+                    <h4> TIPO DE HABITACION: </h4>
+                </th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+            </tr>
+            <tr>
+                <td><input type="radio" name="radioHabitacion" value="sencilla">Sencilla (1 CAMA)</td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="radioHabitacion" value="doble">Doble (1 CAMA DOBLE)</td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="radioHabitacion" value="doble sencilla">Doble Sencilla (2 CAMAS SENCILLAS) </td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="radioHabitacion" value="multiple">Multiple (3 a 4 CAMAS SENCILLAS)</td>
+            </tr>
+            <tr>
+                <td>
+                    <h5>¿Desea incluir servicio de desayuno?</h5> 
+                    <td><input type="checkbox" name="desayuno" id="desayuno" value="si">Si</td>
+                </td>
+            </tr>
+            <tr><td><h6>El desayuno tiene un costo adicional por el valor de $8.000</h6></td></tr>
+            <tr>
+                <td><input type="submit" value="RESERVAR"></td>
+
+            </tr>
+        </tbody>
+
+
+
+    </table>
+
+
+
+</body>
+
+</html>
